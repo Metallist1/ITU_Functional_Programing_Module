@@ -1,0 +1,35 @@
+*.class
+*.log
+.scalafmt.conf
+
+*.solution.*
+*~
+*.bak
+*.class
+*.log
+metals.sbt
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+.DS_Store
+
+# scala-cli specific
+.bsp
+.scala-build
